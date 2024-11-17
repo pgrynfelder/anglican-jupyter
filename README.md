@@ -1,4 +1,4 @@
-# A jupyter server for [Anglican](https://probprog.github.io/anglican/index.html).
+# A jupyter server docker image for [Anglican](https://probprog.github.io/anglican/index.html).
 
 Requires docker or podman.
 
