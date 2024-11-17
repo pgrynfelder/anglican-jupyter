@@ -2,7 +2,7 @@
 
 Requires docker or podman.
 
-To run the jupyter server, just execute `run.sh` (or run the commmands below in your shell of choice)
+To run the jupyter server, just execute `run.sh` (or run the commands below in your shell of choice)
 
 ```sh
 docker build . -t anglican-jupyter
