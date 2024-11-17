@@ -13,7 +13,7 @@ and connect with your jupyter client of choice to `127.0.0.1:8888`.
 
 Note that this is only suitable for **local** development as any jupyter server authentication is disabled.
 
-Then an example preamble for a notebook using anglican + incanter for charts could looks as follows:
+An example preamble for a notebook using anglican + incanter for charts could looks as follows:
 
 ```clj
 (ns example-namespace
