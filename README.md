@@ -12,3 +12,12 @@ docker run --rm -p 8888:8888 -it anglican-jupyter
 and connect with your jupyter client of choice to `127.0.0.1:8888`.
 
 Note that this is only suitable for **local** development as any jupyter server authentication is disabled.
+
+Then an example preamble for a notebook using anglican + incanter for charts could looks as follows:
+
+```clj
+(ns example-namespace
+  (:require [anglican.runtime :refer [mean power exp]]
+            [incanter.charts :as charts])
+  (:use [anglican core emit runtime]))
+```
